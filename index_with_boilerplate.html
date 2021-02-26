@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ski Web</title>
+        <!--Search engine key words-->
+    <meta name="description" content="Website about skiing">
+        <!--Icons for browsers-->
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+        <!--Stylesheets-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skiStyle.css" type="text/css" />
+        <!--Google Fonts ('Oxygen')-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+        <!--Hamburger Icon from FontAwesome-->
+    <script src="https://kit.fontawesome.com/07bc892b56.js" crossorigin="anonymous"></script>
+        <!--Scaling for mobile device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--JavaScript Code for Hamburger-->
+<script>
+    function openMenu(){
+        document.getElementById('menu').style.width='300px';
+    }
+    function closeMenu(){
+        document.getElementById('menu').style.width='0px';
+    }
+</script>
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="banner-home">
+                <h1>Ski Web</h1>
+            </div>
+
+            <div id="open">
+                <a href="#" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+
+            <nav id= "menu">
+                <ul>
+                    <a href="#" onclick="closeMenu()"><i class="fas fa-times"></i></a>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="feature-images">
+                <div class="image-one">
+                    <img src="images/Ski_01.jpg" width="90%" alt="">
+                    <p>Esse consequat irure voluptate in non esse minim ullamco. Laboris laboris consectetur veniam adipisicing quis Lorem aliquip. Mollit dolor aute in laboris aute sit officia laborum. Mollit sint voluptate elit irure. Mollit adipisicing nostrud anim culpa duis commodo commodo elit incididunt incididunt esse aliquip laborum.</p>
+                </div>
+                <div class="image-one">
+                    <img src="images/Ski_02.jpg" width="90%" alt="">
+                    <p>Esse consequat irure voluptate in non esse minim ullamco. Laboris laboris consectetur veniam adipisicing quis Lorem aliquip. Mollit dolor aute in laboris aute sit officia laborum. Mollit sint voluptate elit irure. Mollit adipisicing nostrud anim culpa duis commodo commodo elit incididunt incididunt esse aliquip laborum.</p>
+                </div>
+                <div class="image-one">
+                    <img src="images/Ski_03.jpg" width="90%" alt="">
+                    <p>Esse consequat irure voluptate in non esse minim ullamco. Laboris laboris consectetur veniam adipisicing quis Lorem aliquip. Mollit dolor aute in laboris aute sit officia laborum. Mollit sint voluptate elit irure. Mollit adipisicing nostrud anim culpa duis commodo commodo elit incididunt incididunt esse aliquip laborum.</p>
+                </div>
+            </section>
+            <article class="art-one-home">
+                <div class="art-one-home-img"></div>
+                <div class="art-text">
+                    <h2>This is the title of the article one</h2>
+                    <p>Cillum ut commodo laboris officia id est laborum est ea non sit pariatur voluptate qui. Anim enim minim reprehenderit tempor est esse consectetur quis adipisicing commodo. Occaecat culpa eiusmod sit duis veniam aute minim deserunt. Occaecat esse voluptate quis pariatur laborum in mollit. Do nulla culpa minim cupidatat ea adipisicing.</p>
+                </div>
+            </article>
+            <article class="art2art3-wrapper">
+                <div class="art-two-home">
+                    <div class="art-two-home-img circle"></div>
+                    <p>Cillum ut commodo laboris officia id est laborum est ea non sit pariatur voluptate qui. Anim enim minim reprehenderit tempor est esse consectetur quis adipisicing commodo. Occaecat culpa eiusmod sit duis veniam aute minim deserunt. Occaecat esse voluptate quis pariatur laborum in mollit. Do nulla culpa minim cupidatat ea adipisicing.</p>
+                </div>
+                <div class="art-three-home">
+                    <div class="art-three-home-img circle"></div>
+                    <p>Cillum ut commodo laboris officia id est laborum est ea non sit pariatur voluptate qui. Anim enim minim reprehenderit tempor est esse consectetur quis adipisicing commodo. Occaecat culpa eiusmod sit duis veniam aute minim deserunt. Occaecat esse voluptate quis pariatur laborum in mollit. Do nulla culpa minim cupidatat ea adipisicing.</p>
+                </div>
+            </article>
+        </main>
+        <footer class="footer-home">
+            <h3>This is the footer</h3>
+            <p>Ullamco irure in officia commodo amet sit eiusmod minim laboris irure ut. Consequat reprehenderit eiusmod veniam nisi pariatur voluptate nisi voluptate laboris ullamco. Do cillum tempor non sit minim cillum incididunt. Nisi nostrud exercitation sint excepteur laboris quis ad.</p>
+        </footer>
+    </div>
+
+
+    
+    <!--Javascript Compatability-->
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</body>
+</html>
